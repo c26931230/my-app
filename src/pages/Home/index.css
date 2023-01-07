@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.add {
+  background-color: black;
+  color: #fff;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.edit {
+  width: 100%;
+  margin: auto;
+}
+
+.item {
+  border-bottom: 3px #333 solid;
+  margin-bottom: 10px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.item .delete {
+  background-color: #03A141;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
